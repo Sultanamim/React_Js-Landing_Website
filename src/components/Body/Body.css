@@ -1,0 +1,811 @@
+#main-content.body {
+  background-color: transparent;
+}
+#main-content.body .post-5 {
+  display: block;
+}
+#main-content.body .entry-content {
+  counter-reset: footnotes;
+}
+#main-content.body .et_builder_inner_content {
+  position: relative;
+  z-index: 1;
+}
+/*---------- Hero Section -------*/
+.hero-sec {
+  padding-top: 250px;
+  padding-bottom: 100px;
+  background-image: url(../../asstes/hero-banner.png) !important;
+  background-size: cover;
+}
+.hero-sec .col-12 {
+  color: #fff;
+  word-wrap: break-word;
+  text-align: left;
+}
+.hero-sec h3 {
+  padding-bottom: 10px;
+  font-size: 34px;
+  line-height: normal;
+}
+.hero-sec p {
+  padding-bottom: 0;
+  display: inline-block;
+  font-size: 24px;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+.hero-sec p a {
+  color: #f6c844;
+}
+.hero-sec img {
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.hero-sec .video {
+  position: absolute;
+  z-index: 4;
+}
+
+.hero-sec .video button.close-modal {
+  background: transparent;
+  color: #fff;
+  position: absolute;
+  top: 10px; /* Adjust the top position as needed */
+  right: 20px; /* Adjust the right position as needed */
+  z-index: 5;
+  border: none;
+}
+.hero-sec .video button.close-modal i {
+  font-size: 24px;
+}
+/* ----- Apply Form section ----- */
+.apply-form {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  background-color: #fbf8f1 !important;
+}
+.apply-form h3 {
+  color: #081d5c !important;
+}
+.apply-form p {
+  font-size: 24px;
+  margin-bottom: 10px;
+  line-height: normal;
+}
+.apply-form form .row {
+  max-width: 900px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.apply-form .label {
+  font-size: 18px;
+}
+.apply-form form .col-md-6 input,
+.apply-form form .col-md-6 select {
+  background: #fff;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  height: 43px;
+}
+.apply-form form .col-md-6 input.form-control,
+.apply-form form .col-md-6 select.form-select {
+  box-shadow: none;
+  transition: none;
+}
+.apply-form form input.form-check-input[type="radio"] {
+  border: 2px solid #081d5c;
+  cursor: pointer;
+  outline: 0;
+  margin: 0;
+  width: 20px !important;
+  height: 20px !important;
+  background-color: transparent;
+  position: relative;
+  border-radius: 50%;
+}
+.apply-form form input.form-check-input[type="radio"]:checked {
+  background: #081d5c;
+  width: 1em;
+  height: 1em;
+  box-shadow: none;
+  border: 2px solid #081d5c;
+}
+.apply-form form button[type="submit"] {
+  border-radius: 0;
+  font-size: 18px;
+  padding: 12px 20px;
+  color: #081d5c;
+  border: none;
+  line-height: normal;
+  background: #f6c844;
+  font-family: "Special Elite", display;
+  cursor: pointer;
+  width: 160px;
+  margin-top: 15px;
+}
+/*------ Product Offer Section ------*/
+.product-sec {
+  background-image: url("../../asstes/product-background.jpg");
+}
+.product-sec ul.custom-list {
+  text-align: center;
+  background: rgb(255 255 255 / 54%);
+  padding: 22px 0;
+}
+.product-sec ul.custom-list li {
+  display: inline-block;
+  border-right: 2px solid #081d5c;
+  line-height: normal;
+  position: relative;
+  padding: 0 10px;
+}
+.product-sec ul.custom-list li a {
+  font-style: normal;
+  padding: 5px 12px;
+  font-size: 22px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #081d5c;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.product-sec ul.custom-list li.active a {
+  color: #f6c844;
+  font-weight: 600;
+}
+.product-sec .carousel-indicators button {
+  text-align: center;
+  height: 17px;
+  width: 17px;
+  background: transparent;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  border: 1px solid #fff;
+  margin: 0 3px;
+  opacity: 1;
+}
+.product-sec .carousel-indicators button.active {
+  background: #fff;
+}
+.product-sec .carousel-control-prev-icon {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  text-indent: -9999999px;
+  padding: 0;
+  margin: 0;
+  margin-top: 0px;
+  margin-top: -25px;
+  background-repeat: no-repeat;
+  width: 46px;
+  height: 46px;
+  background-position: center;
+  background-size: contain;
+  cursor: pointer;
+}
+.product-sec .carousel-control-next-icon {
+  position: absolute;
+  top: 50%;
+  padding: 0;
+  right: 0;
+  margin: 0;
+  margin-top: 0px;
+  background-repeat: no-repeat;
+  margin-top: -25px !important;
+  text-indent: -9999999px;
+  width: 46px;
+  height: 46px;
+  background-position: center;
+  background-size: contain;
+  cursor: pointer;
+}
+.product-sec .carousel h2 {
+  color: #f6c844 !important;
+  text-align: center;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.product-sec .carousel h2::after {
+  content: "";
+  left: 50%;
+  bottom: 0;
+  width: 116px;
+  height: 3px;
+  background: #f6c844;
+  position: absolute;
+  transform: translate(-50%, 0%);
+}
+.product-sec .carousel p {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 500;
+}
+@media (max-width: 1400px) {
+  .product-sec .slide-item-1 img {
+    width: 120px;
+    height: 120px;
+  }
+}
+.product-sec .slide-item-2 .row {
+  /* width: 888px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+.product-sec .slide-item-2 span {
+  margin-top: 10px;
+  margin-bottom: 0;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.product-sec .slide-item-2 span img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+.product-sec .slide-item-2 h3 p {
+  font-size: 25px;
+  color: #f6c844 !important;
+  text-align: left;
+}
+.apply-btn {
+  border-radius: 0;
+  font-size: 18px;
+  padding: 12px 20px;
+  color: #081d5c;
+  border: none;
+  line-height: normal;
+  background: #f6c844;
+  font-family: "Special Elite", display;
+  cursor: pointer;
+  width: 160px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.product-sec .slide-item-3 span {
+  display: inline-block;
+  position: relative;
+  max-width: 100%;
+}
+.product-sec .slide-item-3 span img {
+  width: 100%;
+  height: 376px;
+  padding-right: 2rem;
+}
+.product-sec .nav {
+  border-bottom: none;
+}
+.product-sec .nav-link {
+  font-style: normal;
+  padding: 5px 12px;
+  font-size: 22px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 0;
+  border: none;
+}
+.product-sec .nav-link.active {
+  background-color: transparent;
+  border: none;
+  color: #f6c844;
+  font-weight: 600;
+}
+.product-sec .nav-link:first-child {
+  border-right: 2px solid #fff;
+  border-radius: 0px;
+}
+.product-sec .slide-item-4 .row {
+  /* width: 850px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+.product-sec .slide-item-4 h4 {
+  font-size: 28px;
+  color: #f6c844 !important;
+  text-align: center;
+  font-family: "Special Elite", display;
+}
+.product-sec .slide-item-4 h3 {
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  font-size: 30px;
+  color: #ffffff !important;
+  text-align: center;
+}
+.product-sec .slide-item-4 .tab-pane h2::after {
+  display: none;
+}
+/*----- Growing Section ----- */
+.growing-sec {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #ffffff !important;
+}
+.growing-sec h3 {
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-size: 35px;
+  color: #081d5c !important;
+  text-align: left;
+}
+.growing-sec h3::after {
+  content: "";
+  left: 0%;
+  bottom: 0;
+  width: 116px;
+  height: 3px;
+  background: #f6c844;
+  position: absolute;
+  transform: translate(0%, 0%);
+}
+.growing-sec p {
+  text-align: left;
+  word-wrap: break-word;
+  font-size: 21px;
+}
+.growing-sec .row {
+  /* width: 1170px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+.growing-sec img {
+  width: 620px;
+  height: 405px;
+}
+@media (max-width: 1200px) {
+  .growing-sec img {
+    width: 420px;
+    height: 255px;
+  }
+}
+@media (max-width: 768px) {
+  .growing-sec img {
+    width: 420px;
+    height: 255px;
+  }
+}
+@media (max-width: 576px) {
+  .growing-sec img {
+    width: 320px;
+    height: 205px;
+  }
+}
+/*------ French Section -----*/
+.french-sec {
+  position: relative;
+  background: #fbf8f1;
+  color: #000;
+  background-position: 50%;
+  background-size: 100%;
+  background-size: cover;
+}
+.french-sec .img-col {
+  background-image: url("../../asstes/back-1.jpg");
+  width: 45%;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+.french-sec .row {
+  padding: 0;
+  margin: 0;
+}
+.french-sec h3 {
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-size: 35px;
+  color: #081d5c !important;
+  text-align: left;
+}
+.french-sec h3::after {
+  content: "";
+  left: 0%;
+  bottom: 0;
+  width: 116px;
+  height: 3px;
+  background: #f6c844;
+  position: absolute;
+  transform: translate(0%, 0%);
+}
+.french-sec p {
+  font-size: 20px;
+  color: #000;
+}
+.french-sec h4 {
+  color: #081d5c;
+  font-size: 25px;
+  font-family: "Special Elite", display;
+  padding-bottom: 10px;
+  line-height: 1em;
+  font-weight: 500;
+}
+.french-sec p a {
+  font-family: "Special Elite", display;
+  color: #081d5c;
+  font-size: 18px;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.proto-sec {
+  position: relative;
+  background-color: #fff;
+  background-position: 50%;
+  background-size: 100%;
+  background-size: cover;
+}
+.proto-sec h3 {
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-size: 35px;
+  color: #081d5c !important;
+  text-align: left;
+}
+.proto-sec h3::after {
+  content: "";
+  left: 0%;
+  bottom: 0;
+  width: 116px;
+  height: 3px;
+  background: #f6c844;
+  position: absolute;
+  transform: translate(0%, 0%);
+}
+.proto-sec p {
+  font-size: 20px;
+  color: #000;
+}
+.proto-sec .carousel-item {
+  width: 100%;
+}
+.proto-sec .carousel-item img {
+  width: 100%;
+}
+@media (max-width: 992px) {
+  .proto-sec .carousel-item {
+    width: 605.5px;
+    height: 400px;
+  }
+  .proto-sec .carousel-item img {
+    width: 605.5px;
+    height: 400px;
+  }
+}
+@media (max-width: 767px) {
+  .proto-sec .carousel-item {
+    width: 405.5px;
+    height: 300px;
+  }
+  .proto-sec .carousel-item img {
+    width: 405.5px;
+    height: 300px;
+  }
+}
+@media (max-width: 576px) {
+  .proto-sec .carousel-item {
+    width: 305.5px;
+    height: 250px;
+  }
+  .proto-sec .carousel-item img {
+    width: 305.5px;
+    height: 250px;
+  }
+}
+.proto-sec .custom-list {
+  transform: translate3d(0px, 0px, 0px);
+  transition: all 0.1s ease 0s;
+  /* width: 737px; */
+  position: relative;
+  overflow: hidden;
+}
+.proto-sec .custom-list li {
+  width: 116px;
+  margin-right: 10px;
+  float: left;
+  list-style: none;
+}
+.proto-sec .custom-list li img {
+  width: 116px;
+  height: 83px;
+}
+
+@media (max-width: 1400px) {
+  .proto-sec .custom-list {
+    margin-left: 6px;
+    list-style: none;
+  }
+  .proto-sec .custom-list li {
+    width: 100px;
+    height: 63px;
+    margin-right: 4px;
+  }
+  .proto-sec .custom-list li img {
+    width: 100px;
+    height: 63px;
+  }
+}
+.proto-sec .carousel-indicators button {
+  text-align: center;
+  height: 17px;
+  width: 17px;
+  background: transparent;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  border: 1px solid #081d5c;
+  margin: 0 3px;
+  opacity: 1;
+}
+.proto-sec .carousel-indicators button.active {
+  background: #081d5c;
+}
+.proto-sec .apply-btn,
+.meet-sec .apply-btn {
+  width: 260px;
+}
+.proto-sec .carousel-control-prev-icon {
+  left: -70px;
+  z-index: 9;
+  background-color: #081d5c;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  text-indent: -9999999px;
+  margin-top: 0px;
+  background-repeat: no-repeat;
+  width: 46px;
+  height: 46px;
+  background-position: center;
+  background-size: contain;
+  cursor: pointer;
+}
+.proto-sec .carousel-control-next-icon {
+  right: -70px;
+  z-index: 9;
+  background-color: #081d5c;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  margin-top: 0px;
+  background-repeat: no-repeat;
+  text-indent: -9999999px;
+  width: 46px;
+  height: 46px;
+  background-position: center;
+  background-size: contain;
+  cursor: pointer;
+}
+/*--------  Get Start Section -------*/
+.get-start-sec {
+  background-image: url("../../asstes/get-start-back.jpg");
+}
+.get-start-sec h2 {
+  color: #ffffff !important;
+}
+.get-start-sec p {
+  color: #fff;
+  font-size: 24px;
+  text-align: left;
+  font-weight: 500;
+}
+.get-start-sec .apply-btn {
+  margin-right: 15px;
+  padding: 12px 0;
+}
+.get-start-sec .apply-btn.btn2 {
+  width: 200px;
+}
+/*----- Meet Franchies -----*/
+.meet-sec {
+  position: relative;
+  background: #fbf8f1;
+  color: #000;
+}
+.meet-sec .img-col1 {
+  background-image: url("../../asstes//slide-back-1.png");
+  width: 45%;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+.meet-sec .img-col2 {
+  background-image: url("../../asstes//slide-back-2.png");
+  width: 45%;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+.meet-sec .img-col3 {
+  background-image: url("../../asstes//slide-back-3.png");
+  width: 45%;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+.meet-sec .img-col4 {
+  background-image: url("../../asstes//slide-back-4.png");
+  width: 45%;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+.meet-sec h3 {
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-size: 35px;
+  color: #081d5c !important;
+  text-align: left;
+}
+.meet-sec h3::after {
+  content: "";
+  left: 0%;
+  bottom: 0;
+  width: 116px;
+  height: 3px;
+  background: #f6c844;
+  position: absolute;
+  transform: translate(0%, 0%);
+}
+.meet-sec p {
+  font-size: 20px;
+  color: #000;
+  word-wrap: break-word;
+}
+.meet-sec .carousel-control-prev-icon,
+.meet-sec .carousel-control-next-icon {
+  background-color: #081d5c;
+  border-radius: 50%;
+}
+.meet-sec .social img {
+  float: left;
+  margin-right: 5px;
+}
+.meet-sec .social p {
+  font-family: "Jost", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  color: #000;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+/* ----  Research Section ----*/
+.research-sec h2 {
+  color: #081d5c !important;
+  text-align: center;
+  position: relative;
+}
+.research-sec h2::after {
+  content: "";
+  left: 50%;
+  bottom: 0;
+  width: 116px;
+  height: 3px;
+  background: #f6c844;
+  position: absolute;
+  transform: translate(-50%, 0%);
+}
+.research-sec .card {
+  border: none;
+  border-radius: 0px;
+}
+.research-sec .card img {
+  border-radius: 0px;
+}
+.research-sec .card .card-body {
+  padding-left: 0px;
+  text-align: left;
+}
+
+.research-sec .card h3.card-text {
+  color: #1f2559 !important;
+  font-size: 16px;
+  line-height: 117%;
+  font-weight: 400;
+  font-family: "Work Sans", display !important ;
+  text-transform: none;
+  margin-bottom: 15px;
+}
+.research-sec .card .card-body a {
+  background: none;
+  color: #1f2559 !important;
+  font-family: Work Sans;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 14.62px;
+}
+/*--- Wood Apply Section ----*/
+.wood-sec {
+  background-image: url("../../asstes/wood-back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.wood-sec h3 {
+  color: #fff !important;
+}
+.wood-sec p {
+  font-size: 24px;
+  margin-bottom: 10px;
+  line-height: normal;
+  color: #fff;
+}
+.wood-sec form .row {
+  /* max-width: 900px; */
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.wood-sec form .form-check-label {
+  color: #fff;
+}
+.wood-sec .label {
+  font-size: 18px;
+  color: #fff;
+  /* width: 550px; */
+}
+.wood-sec form .col-md-6 input,
+.wood-sec form .col-md-6 select {
+  background: #fff;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  height: 43px;
+}
+.wood-sec form .col-md-6 input.form-control,
+.wood-sec form .col-md-6 select.form-select {
+  box-shadow: none;
+  transition: none;
+}
+.wood-sec form input.form-check-input[type="radio"] {
+  border: 2px solid #fff;
+  cursor: pointer;
+  outline: 0;
+  margin: 0;
+  width: 20px !important;
+  height: 20px !important;
+  background-color: transparent;
+  position: relative;
+  border-radius: 50%;
+}
+.wood-sec form input.form-check-input[type="radio"]:checked {
+  background: #fff;
+  width: 1em;
+  height: 1em;
+  box-shadow: none;
+  border: 2px solid #fff;
+}
+.wood-sec form button[type="submit"] {
+  border-radius: 0;
+  font-size: 18px;
+  padding: 12px 20px;
+  color: #fff;
+  border: none;
+  line-height: normal;
+  background: #f6c844;
+  font-family: "Special Elite", display;
+  cursor: pointer;
+  width: 160px;
+  margin-top: 15px;
+}

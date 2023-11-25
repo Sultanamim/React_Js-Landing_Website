@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+.et-animated-content#page-container {
+  transition: margin-top 0.4s ease-in-out;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  text-align: left;
+  position: relative;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  width: 90%;
+  /* max-width: 1080px; */
+  margin: auto;
+  position: relative;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+div h3 {
+  font-family: "Special Elite", display !important;
+  font-size: 35px;
 }
-
-.App-link {
-  color: #61dafb;
+div h2 {
+  font-size: 45px !important;
+  font-family: "Special Elite", display !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.modal-xl .btn-close {
+  background-color: #fff !important;
+  border-radius: 5px;
+}
+.modal-xl .modal-header {
+  border: none;
+}
+.modal-xl .wood-sec {
+  background-image: url("./asstes/modal-bg.jpg");
 }

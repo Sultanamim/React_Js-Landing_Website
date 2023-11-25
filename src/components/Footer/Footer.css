@@ -1,0 +1,119 @@
+.footer {
+  background-color: #081d5c;
+  color: #fff;
+}
+.footer .footer-top {
+  padding: 6% 0 0;
+  font-family: "Jost", Helvetica, Arial, Lucida, sans-serif;
+}
+.footer .footer-top .logo {
+  padding-right: 15%;
+}
+.footer p {
+  font-family: "Jost", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.footer h4.title {
+  font-family: "Jost", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  position: relative;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+  padding-bottom: 17px;
+  border-bottom: 3px solid #f6c844;
+  width: 155px;
+}
+.footer li {
+  list-style: none;
+  padding: 8px 0;
+}
+.footer li a {
+  font-family: "Jost", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  position: relative;
+  color: #fff;
+  text-transform: uppercase;
+}
+.footer .border-row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  border-top: 1px solid #fff;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+.footer ul.social-list li {
+  float: left;
+  margin-right: 25px;
+}
+.footer ul.social-list li i {
+  font-size: 27px;
+}
+.footer .footer-bottom {
+  padding: 15px 0 5px;
+}
+.footer .footer-bottom strong {
+  text-transform: uppercase;
+  font-family: "roboto", Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom: 1em;
+}
+.footer .footer-bottom p {
+  font-family: "roboto", Georgia, "Times New Roman", serif;
+  font-size: 11px;
+  font-weight: 400;
+  padding-bottom: 1em;
+  line-height: 20px;
+  text-align: left;
+  text-transform: none;
+}
+/*   Sicky Footer  */
+.sticky-form {
+  width: 100%;
+  background-color: #6f5d52;
+  background: url("../../asstes/product-background.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+}
+.sticky-form form input {
+  background: #fff;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  height: 43px;
+}
+.sticky-form form button[type="submit"] {
+  border-radius: 0;
+  font-size: 18px;
+  padding: 12px 20px;
+  color: #081d5c;
+  border: none;
+  line-height: normal;
+  background: #f6c844;
+  font-family: "Special Elite", display;
+  cursor: pointer;
+  width: 160px;
+}
+.sticky-form .sticky-title h3 {
+  font-size: 30px !important;
+  color: #fff !important;
+}
+.sticky-form .sticky-title p {
+  color: #fff !important;
+  font-size: 20px;
+}
+.sticky-form .row {
+  margin-left: 1rem;
+}
